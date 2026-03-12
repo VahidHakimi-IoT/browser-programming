@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lecture 7 — REST API Fetch</title>
+  <link rel="stylesheet" href="exercise.css">
+</head>
+<body>
+  <div class="container">
+
+    <!-- Header -->
+    <header class="header">
+      <p class="eyebrow">Lecture 7 · Data Formats &amp; APIs</p>
+      <h1>REST API <em>Fetch</em></h1>
+      <p class="desc">
+        Loads user data from a public API, parses nested JSON fields,
+        and displays formatted results in both a card list and a console log.
+      </p>
+    </header>
+
+    <!-- Button -->
+    <div class="btn-row">
+      <button id="btnLoadUsers">
+        <span class="btn-spinner"></span>
+        <span class="btn-label">Load Users</span>
+      </button>
+    </div>
+
+    <!-- Part E: Card list -->
+    <p class="section-label">users</p>
+    <ul id="userList"></ul>
+
+    <!-- Console-style log -->
+    <div class="console-wrap">
+      <div class="console-bar">
+        <span class="dot r"></span>
+        <span class="dot y"></span>
+        <span class="dot g"></span>
+        <span class="label">console output</span>
+      </div>
+      <pre id="output"></pre>
+    </div>
+
+  </div>
+  <script src="exercise.js"></script>
+</body>
+</html>

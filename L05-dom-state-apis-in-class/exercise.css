@@ -1,0 +1,119 @@
+body {
+    font-family: Arial;
+    background-color: lightblue;
+}
+/* 1. Element selector */
+body {
+    background-color: lightblue;
+}
+
+/* 2. Group selector */
+h1, h2 {
+    color: darkblue;
+}
+
+/* 3. Descendant selector */
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+/* 4. Class selector */
+.card {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+/* 5. ID selector */
+#works {
+    background-color: lightgray;
+}
+
+/* 6. Pseudo-class */
+a:hover {
+    color: red;
+}
+/* 1. Set readable font for whole page */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* 2. Improve readability with line height */
+p {
+    line-height: 1.6;
+}
+
+/* 3. Different font sizes for headings */
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 24px;
+}
+/* 1. Padding inside main content */
+main {
+    padding: 20px;
+}
+
+/* 2. Space between sections (outside spacing) */
+section {
+    margin-bottom: 20px;
+}
+
+/* 3. Use both margin and padding together */
+.card {
+    padding: 15px;      /* space inside */
+    margin-bottom: 15px; /* space outside */
+    border: 1px solid black;
+}
+/* Header styling */
+header {
+    background-color: #f0f0f0; /* subtle light gray */
+    padding: 15px;
+}
+
+/* Footer styling */
+footer {
+    background-color: #f0f0f0;
+    padding: 15px;
+}
+header, footer {
+    text-align: center;
+}
+/* Remove bullets and horizontal layout */
+nav ul {
+    list-style: none;       /* no bullets */
+    padding: 0;             /* remove default padding */
+    margin: 0;              /* remove default margin */
+    display: flex;          /* horizontal layout */
+    gap: 15px;              /* space between items */
+}
+
+/* Remove underline from links */
+nav a {
+    text-decoration: none;
+    color: black;           /* optional, make links readable */
+}
+
+/* Optional: hover effect */
+nav a:hover {
+    color: blue;
+}
+img {
+    max-width: 100%; /* never overflow parent container */
+    height: auto;    /* maintain aspect ratio */
+}
+main {
+    max-width: 900px;    /* limit width for readability */
+    margin: 0 auto;      /* center content horizontally */
+    padding: 20px;       /* keep internal spacing */
+}
+body.dark-mode {
+    background-color: #222;
+    color: white;
+}
+body.dark-mode {
+    background-color: #222;
+    color: white;
+}

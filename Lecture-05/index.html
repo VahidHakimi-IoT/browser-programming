@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lecture 05 Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>My Portfolio</h1>
+        <button id="btnToggleTheme">Toggle Theme</button>
+    </header>
+
+    <!-- Main content -->
+    <main>
+        <!-- Click Counter -->
+        <section>
+            <h2>Click Counter</h2>
+            <button id="clickBtn">Click Me</button>
+            <p>Clicks: <span id="clickCount">0</span></p>
+        </section>
+
+        <!-- Skills -->
+        <section class="card" id="skills">
+            <h2>Skills</h2>
+            <div class="skills-list">
+                <div class="skill">HTML</div>
+                <div class="skill">CSS</div>
+                <div class="skill">JavaScript</div>
+                <div class="skill">Python</div>
+                <div class="skill">IoT</div>
+                <div class="skill">LTspice</div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="card" id="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Portfolio Website</h3>
+                <p>My personal portfolio website.</p>
+                <a href="#">GitHub Link</a>
+            </div>
+            <div class="project">
+                <h3>IoT Sensor</h3>
+                <p>Temperature monitoring system.</p>
+                <a href="#">Project Link</a>
+            </div>
+        </section>
+
+        <!-- Last Updated -->
+        <p id="lastUpdated"></p>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        &copy; 2026 My Portfolio
+    </footer>
+
+    <!-- JS -->
+    <script src="script.js"></script>
+</body>
+</html>
